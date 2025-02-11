@@ -70,6 +70,7 @@ img.cyber_security_gif2 {
   width: 30%;
   opacity: 0.5;
   margin-left: 19px;
+  
 }
 
 .education_gif {
@@ -89,6 +90,12 @@ img#Main_Profile_img {
   padding: 45px 45px 45px 0px;
 }
 
+
+img.cyber_security_gif1 {
+opacity: 0.5;
+ 
+}
+
 /* media quarry_hero section */
 
 @media screen and (min-device-width: 300px) and (max-device-width: 400px) {
@@ -97,10 +104,16 @@ img#Main_Profile_img {
     width: 52%;
     opacity: 0.5;
     margin-left: 40px;
+    
   }
 
   img.cyber_security_gif1 {
-    width: 70px;
+    margin-top: 30px;
+   
+}
+
+  img.cyber_security_gif1 {
+    width: 40px;
   }
 
   img.profile_img01 {

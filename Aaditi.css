@@ -327,15 +327,27 @@ header#header {
     margin: 0px;
     color: #717589;
   }
+
 }
 
-@media screen and (min-device-width: 300px) and (max-device-width: 400px) {
+
+
+
+
+@media screen and (min-device-width: 300px) and (max-device-width: 991px) {
   a.navbar-brand {
     font-size: 18px;
     font-weight: 700;
   }
+  p.brand-p {
+    margin-bottom: 0px !important;
+  }
+  
+  a.navbar-brand {
+    text-align: end;
+   
 }
-
+}
 /* nav end */
 
 /* about start */

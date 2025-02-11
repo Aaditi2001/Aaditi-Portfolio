@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -76,7 +76,7 @@ img.cyber_security_gif2 {
   width: 30%;
   opacity: 0.5;
   margin-left: 19px;
-  
+
 }
 
 .education_gif {
@@ -98,8 +98,8 @@ img#Main_Profile_img {
 
 
 img.cyber_security_gif1 {
-opacity: 0.5;
- 
+  opacity: 0.5;
+
 }
 
 /* media quarry_hero section */
@@ -110,7 +110,7 @@ opacity: 0.5;
     width: 52%;
     opacity: 0.5;
     margin-left: 40px;
-    
+
   }
 
   img.cyber_security_gif1 {
@@ -124,7 +124,16 @@ opacity: 0.5;
   }
 
   .bg-vection-img {
-    margin-top: 0px !important;
+    margin-top: 40px !important;
+  }
+
+  img.profile_img01 {
+    width: 80% !important;
+  }
+
+  img#Main_Profile_img {
+    width: 100%;
+    padding: 0px !important;
   }
 
   p.hero-section_p {
@@ -151,13 +160,27 @@ opacity: 0.5;
 
   img#Main_Profile_img {
     width: 50%;
-    margin-left: 25%;
+  
     padding: 0px !important;
   }
 
   .hero-contant {
     transform: translate(0%, 10%);
   }
+
+  #hero_bg_2 {
+    background-position: right;
+  }
+
+  .bg-vection-img-2 {
+    margin-bottom: 50px !important;
+  }
+
+  .bg-vection-img-2 {
+    text-align: center;
+}
+
+
 }
 
 @media screen and (min-device-width: 401px) and (max-device-width: 991px) {
@@ -168,6 +191,10 @@ opacity: 0.5;
     margin-left: 40px;
   }
 
+  #hero_bg_2 {
+    background-position: right;
+  }
+
   img.cyber_security_gif1 {
     width: 50px;
     margin-left: 28px;
@@ -176,49 +203,61 @@ opacity: 0.5;
 
   .bg-vection-img-2 {
     margin-bottom: 50px !important;
-}
-
-}
-
-  img.profile_img01 {
-    width: 100%;
-  }
-
-  .bg-vection-img {
-    margin-top: 0px !important;
-  }
-
-  p.hero-section_p {
-    font-family: "Poppins";
-    text-align: center;
-    color: #b5b0b0;
-    font-size: 16px;
-  }
-
-  h4.hero-section_h4 {
-    font-size: 18px;
-    margin-bottom: 14px;
-  }
-
-  h1.hero-section_h1 {
-    font-size: 26px;
-    margin-top: 24px;
   }
 
   img#Main_Profile_img {
     width: 50%;
+    padding: 30px !important;
+    text-align: center !important;
+  }
+
+  .bg-vection-img-2 {
+    text-align: center;
+}
+
+
+}
+
+img.profile_img01 {
+  width: 50%;
+}
+
+/* .bg-vection-img {
+    margin-top: 0px !important;
+  } */
+
+p.hero-section_p {
+  font-family: "Poppins";
+  text-align: center;
+  color: #b5b0b0;
+  font-size: 16px;
+}
+
+h4.hero-section_h4 {
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+h1.hero-section_h1 {
+  font-size: 26px;
+  margin-top: 24px;
+}
+
+/* 
+  img#Main_Profile_img {
+    width: 50%;
     margin-left: 25%;
     padding: 0px !important;
-  }
+  } */
 
-  .hero-contant {
-    transform: translate(0%, 10%);
-  }
+.hero-contant {
+  transform: translate(0%, 10%);
+}
 
-  img.education_gif_2 {
-    width: 10%;
-    margin-right: 76px !important;
-  }
+img.education_gif_2 {
+  width: 10%;
+  margin-right: 76px !important;
+}
 
 
 /* hover effect-hero section */
@@ -339,15 +378,19 @@ header#header {
     font-size: 18px;
     font-weight: 700;
   }
+
   p.brand-p {
     margin-bottom: 0px !important;
   }
-  
+
   a.navbar-brand {
     text-align: end;
-   
+
+  }
+
+
 }
-}
+
 /* nav end */
 
 /* about start */
@@ -586,7 +629,7 @@ h2.about-us-h2 {
   }
 
   .about-section .image-column .inner-column {
-   
+
     margin-left: 0px !important;
     padding: 26px 24px 0px 0px;
   }
@@ -1894,6 +1937,7 @@ section.portfolio-section {
   box-shadow: none;
   font-size: 14px;
 }
+
 #contact .form button[type="submit"] {
   background: linear-gradient(to right bottom, rgba(0, 32, 96, 1) 0%, rgba(90, 19, 104, 1));
   border: 0;
@@ -1941,7 +1985,7 @@ section.portfolio-section {
 .form {
   width: 100%;
   margin: auto;
-  font-family:  'Poppins' !important;
+  font-family: 'Poppins' !important;
 }
 
 .form-group {
@@ -1972,13 +2016,14 @@ section.portfolio-section {
   margin-bottom: 0;
   font-family: 'poppins';
 }
-.footer .footer-break{
-height:2px;
-border-width:0;
-color:gray;
-background-color:white
-  }
 
- 
+.footer .footer-break {
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: white
+}
+
+
 
 /* footer end */

@@ -160,7 +160,7 @@ img.cyber_security_gif1 {
 
   img#Main_Profile_img {
     width: 50%;
-  
+
     padding: 0px !important;
   }
 
@@ -178,7 +178,7 @@ img.cyber_security_gif1 {
 
   .bg-vection-img-2 {
     text-align: center;
-}
+  }
 
 
 }
@@ -213,7 +213,7 @@ img.cyber_security_gif1 {
 
   .bg-vection-img-2 {
     text-align: center;
-}
+  }
 
 
 }
@@ -251,7 +251,7 @@ h1.hero-section_h1 {
   } */
 
 .hero-contant {
-  transform: translate(0%, 10%);
+  transform: translate(0%, 20%);
 }
 
 img.education_gif_2 {
@@ -1992,9 +1992,9 @@ section.portfolio-section {
   padding: 10px;
 }
 
-.sec-skill {
+/* .sec-skill {
   margin-bottom: 74px;
-}
+} */
 
 /* contact us end */
 
@@ -2027,3 +2027,177 @@ section.portfolio-section {
 
 
 /* footer end */
+
+/* ==========================PROJECT NEW PAGE=============================== */
+
+
+/* title start */
+
+
+.page-title {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 40px;
+  color: #ffffff;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.page-title .page-span {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.3;
+}
+
+.page-title em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.two {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: linear-gradient(to right bottom, rgba(0, 32, 96, 1) 0%, rgba(90, 19, 104, 1));
+  background-image: url(assets/pagetitle-1.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.two .page-title {
+  text-transform: capitalize;
+}
+
+
+.two .page-title .page-span {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 3em;
+  color: rgb(255 255 255 / 40%);
+
+}
+
+.alt-two .page-title {
+  text-align: center;
+}
+
+.alt-two .page-title:before {
+  left: 50%;
+  margin-left: -30px;
+}
+
+
+@media screen and (min-device-width: 300px) and (max-device-width:400px) {
+  .two {
+    background-size: contain;
+  }
+
+}
+
+/* title end */
+
+
+@media screen and (min-device-width: 300px) and (max-device-width: 991px) {
+  .school-img-02 {
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  .school-img-03 {
+    width: 100%;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+  }
+
+
+  .school-img {
+    width: 100%;
+    margin-top: 0px !important;
+  }
+
+ 
+}
+
+
+/* e-school start */
+
+.school-img {
+  width: 100%;
+  margin-top: 100px;
+}
+
+img.school-img {
+  background-image: url(assets/bg-212-new.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.project-text-body {
+  margin-top: 50px;
+  font-family: 'Poppins';
+}
+
+h3.project-name-h3 {
+  background-image: linear-gradient(207deg, #002060, #002060, #5a1368);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+h6.h6-project {
+  color: #d7a449;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+
+li.project-discription-li {
+  color: #9a9b9d;
+  margin-bottom: 5px;
+
+  font-size: 16px;
+}
+
+a.priview-link {
+  color: darkblue;
+}
+
+/* e-school end */
+
+/* dochai */
+
+.school-img-02 {
+
+  margin-top: 60px;
+}
+
+img.school-img-02 {
+  background-image: url(assets/mockup-bg-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* sou */
+
+.school-img-03 {
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+img.school-img-03 {
+  background-image: url(assets/bg-212-new.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

@@ -2275,3 +2275,35 @@ img.school-img-06 {
   background-position: center;
   background-size: cover;
 }
+
+
+
+/* my company 07*/
+
+.school-img-07 {
+  margin-top: 50px;
+  width: 100%;
+}
+
+img.school-img-07 {
+  background-image: url(assets/bg-212-new.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+/* travlty 08 */
+
+.school-img-08 {
+  margin-top: 50px;
+  width: 100%;
+}
+
+img.school-img-08 {
+  background-image: url(assets/mockup-bg-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

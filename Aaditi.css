@@ -2116,6 +2116,12 @@ color: linear-gradient(to right bottom, rgba(0, 32, 96, 1) 0%, rgba(90, 19, 104,
 
 
 @media screen and (min-device-width: 300px) and (max-device-width: 991px) {
+  .school-img {
+    width: 100%;
+    margin-top: 0px !important;
+  }
+
+  
   .school-img-02 {
     width: 100%;
     margin-top: 60px;
@@ -2127,8 +2133,17 @@ color: linear-gradient(to right bottom, rgba(0, 32, 96, 1) 0%, rgba(90, 19, 104,
     margin-left: 0px !important;
   }
 
+  .school-img-04 {
+    width: 100%;
+    margin-top: 0px !important;
+  }
 
-  .school-img {
+  .school-img-05 {
+    width: 100%;
+    margin-top: 0px !important;
+  }
+
+  .school-img-06 {
     width: 100%;
     margin-top: 0px !important;
   }

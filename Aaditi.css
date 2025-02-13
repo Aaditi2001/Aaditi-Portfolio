@@ -729,11 +729,19 @@ p.skill-para {
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
 }
 
+.wrapper .card_skill {
+  transition: background 0.5s ease-in-out, 
+  color 0.5s ease-in-out, 
+  transform 0.5s ease-in-out;
+
+}
+
+
 .wrapper .card_skill:hover {
-  /* background-color: #ffcf00; */
   color: black;
-  transform: translateY(-14px);
-  transition: background 1s, color 1s, transform 0.5s;
+  transform: translateY(-15px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+
 }
 
 .skillcontainer .wrapper .card_skill .circle {
@@ -1823,7 +1831,7 @@ section.portfolio-section {
   display: block;
   width: 60px;
   height: 5px;
-  background: #f82249;
+  background: linear-gradient(to right bottom, rgba(0, 32, 96, 1) 0%, rgba(90, 19, 104, 1));
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -1887,7 +1895,8 @@ section.portfolio-section {
 }
 
 #contact .contact-info a:hover {
-  color: #f82249;
+ 
+color: linear-gradient(to right bottom, rgba(0, 32, 96, 1) 0%, rgba(90, 19, 104, 1));
 }
 
 #contact .contact-address,
@@ -1897,7 +1906,7 @@ section.portfolio-section {
 }
 
 #contact .form #sendmessage {
-  color: #f82249;
+  color: linear-gradient(to right bottom, rgba(0, 32, 96, 1) 0%, rgba(90, 19, 104, 1));
   border: 1px solid #f82249;
   display: none;
   text-align: center;
@@ -1907,7 +1916,7 @@ section.portfolio-section {
 }
 
 #contact .form #errormessage {
-  color: red;
+  color: linear-gradient(to right bottom, rgba(0, 32, 96, 1) 0%, rgba(90, 19, 104, 1));
   display: none;
   border: 1px solid red;
   text-align: center;
@@ -1923,7 +1932,7 @@ section.portfolio-section {
 }
 
 #contact .form .validation {
-  color: red;
+  color: linear-gradient(to right bottom, rgba(0, 32, 96, 1) 0%, rgba(90, 19, 104, 1));
   display: none;
   margin: 0 0 20px;
   font-weight: 400;
@@ -1950,7 +1959,7 @@ section.portfolio-section {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #e0072f;
+  background: linear-gradient(to right bottom, rgba(0, 32, 96, 1) 0%, rgba(90, 19, 104, 1));
 }
 
 
@@ -2094,9 +2103,11 @@ section.portfolio-section {
 }
 
 
-@media screen and (min-device-width: 300px) and (max-device-width:400px) {
+@media screen and (min-device-width: 300px) and (max-device-width:1300px) {
   .two {
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: inherit;
   }
 
 }
@@ -2125,8 +2136,12 @@ section.portfolio-section {
  
 }
 
+div#leftsideimg {
+  background-color:rgb(255 253 244);
+}
 
-/* e-school start */
+
+/* e-school-student start */
 
 .school-img {
   width: 100%;
@@ -2172,7 +2187,7 @@ a.priview-link {
   color: darkblue;
 }
 
-/* e-school end */
+
 
 /* dochai */
 
@@ -2193,9 +2208,53 @@ img.school-img-02 {
 .school-img-03 {
   margin-left: 50px;
   margin-top: 100px;
+  width: 100%;
 }
 
 img.school-img-03 {
+  background-image: url(assets/bg-212-new.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* irishholiday */
+
+.school-img-04 {
+width: 100%;
+  margin-top: 60px;
+}
+
+img.school-img-04 {
+  background-image: url(assets/mockup-bg-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* eschool teacher */
+
+.school-img-05 {
+width: 100%;
+  margin-top: 60px;
+}
+
+img.school-img-05 {
+  background-image: url(assets/mockup-bg-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* do chai vendor */
+
+.school-img-06 {
+
+  width: 100%;
+}
+
+img.school-img-06 {
   background-image: url(assets/bg-212-new.png);
   background-repeat: no-repeat;
   background-position: center;

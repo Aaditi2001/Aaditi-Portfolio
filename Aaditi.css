@@ -156,7 +156,7 @@ img.cyber_security_gif1 {
 
   img#Main_Profile_img {
     width: 50%;
-
+    margin-bottom: 119px;
     padding: 0px !important;
   }
 
@@ -201,8 +201,9 @@ img.cyber_security_gif1 {
 
   img#Main_Profile_img {
     width: 50%;
-    padding: 30px !important;
+    padding: 0px !important;
     text-align: center !important;
+    margin-bottom: 119px;
   }
 
   .bg-vection-img-2 {

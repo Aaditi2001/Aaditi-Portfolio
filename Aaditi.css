@@ -2080,6 +2080,34 @@ div.active {
   display: block;
 }
 
+a.buttonproject {
+  color: rgba(0, 32, 96, 1);
+  background: transparent;
+  border-radius: 10px;
+  display: inline;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 12px 16px;
+  border: 1px solid rgba(0, 32, 96, 1);
+  margin: 0 5px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Poppins";
+}
+
+a.buttonproject.active {
+background: linear-gradient(to right bottom, rgba(0, 32, 96, 1) 0%, rgba(90, 19, 104, 1));
+    color: #fff;}
+
+div#project_buttons {
+  text-align: center;
+  margin-top: 50px;
+}
+
 /* button end */
 
 /* project start */
@@ -2120,6 +2148,20 @@ div.active {
 
   img.school-img-02 {
     width: 100%;
+}
+
+
+/* website */
+.school-img-16 {
+ 
+  width: 100%;
+}
+
+/* covid19 17 */
+
+.school-img-17 {
+ 
+  width: 100%;
 }
 }
 
@@ -2375,12 +2417,12 @@ img.school-img-15 {
 
 .school-img-16 {
   margin-top: 50px;
-  width: 100%;
+ 
 }
 
 /* covid19 17 */
 
 .school-img-17 {
   margin-top: 50px;
-  width: 100%;
+ 
 }

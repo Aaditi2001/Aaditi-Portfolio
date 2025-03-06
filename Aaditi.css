@@ -1497,8 +1497,8 @@ a.filter.project-page {
 
 
 a.project-a {
-  color: rgba(0, 32, 96, 1);
-  text-decoration: none;
+  color: rgba(0, 32, 96, 1) !important;
+  text-decoration: none !important;
 }
 
 .portfolio-tab ul li {

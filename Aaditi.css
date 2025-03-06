@@ -1524,16 +1524,16 @@ a.project-a {
 a.project-a:hover {
   background: linear-gradient(to right bottom,
       rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
-  color: #fff;
+      rgba(90, 19, 104, 1)) !important;
+  color: #fff !important;
   border-radius: 10px;
 }
 
 a.filter.project-page:hover {
   background: linear-gradient(to right bottom,
       rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
-  color: #fff;
+      rgba(90, 19, 104, 1)) !important;
+  color: #fff !important;
   border-radius: 10px;
 }
 

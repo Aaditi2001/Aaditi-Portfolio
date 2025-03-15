@@ -2728,8 +2728,8 @@ li.li-sublines {
 
 
 .contact-page-sec{
-  padding: 60px 0;
-  min-height: 100vh;
+  padding: 30px 0;
+  /* min-height: 100vh; */
   font-family:  "Poppins";
 }
 

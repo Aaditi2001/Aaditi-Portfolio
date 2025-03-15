@@ -1324,7 +1324,7 @@ button#btn_experiencebutton_6 {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  height: 140px;
+  height: 130px;
   box-sizing: border-box;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.164);
   transform: translateY(-100px);
@@ -1335,6 +1335,10 @@ button#btn_experiencebutton_6 {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   /* max-width: 370px!important; */
+}
+
+.content.education {
+  margin-top: 0px !important;
 }
 
 .container_education .card_education .face.face2 p {
@@ -2496,6 +2500,7 @@ img.school-img-15 {
 
 
 
+
 /* about section start */
 
 
@@ -2526,6 +2531,16 @@ section#about {
   background-size: 200% 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+b.ul_h {
+  color: #d7a449;
+  font-size: 20px;
+}
+
+li.li-sublines {
+  margin-top: 26px;
+  color: #aba6a6;
 }
 
 @media (max-width: 992px) {
@@ -2559,8 +2574,12 @@ section#about {
 }
 
 .about .feature-list li i {
-  color: #002e5a;
-  font-size: 1.25rem;
+
+  background-image: linear-gradient(359deg, #002060, #002060, #5a1368);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-size:16px;
 }
 
 .about .profile .profile-image {

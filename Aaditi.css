@@ -2872,7 +2872,33 @@ ul.experience-list {
 li.li-experience {
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 32px;
+  
+ 
 }
+
+
+div#box_heading {
+  color: #ffffff;
+  background: linear-gradient(to right bottom, rgba(0, 32, 96, 1) 0%, rgba(90, 19, 104, 1));
+  padding-top: 20px;
+  border-radius: 15px;
+  padding-bottom: 10px;
+  margin-left: 3px;
+  margin-right: 1px;
+}
+ h6.company_name {
+  margin-left: 14px;
+} 
+
+.li_section_box {
+  margin-top: 10px;
+  background-color: #fffcf7;
+  padding: 20px;
+  border-radius: 18px;
+}
+
+
 
 .sec-title.experience {
   margin-top: 50px;

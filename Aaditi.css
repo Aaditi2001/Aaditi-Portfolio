@@ -2190,21 +2190,21 @@ div#project_buttons {
   img.school-img-02 {
     width: 100%;
 }
-
+}
 
 /* website */
-.school-img-16 {
+/* .school-img-16 {
  
   width: 100%;
-}
+} */
 
 /* covid19 17 */
 
-.school-img-17 {
+/* .school-img-17 {
  
   width: 100%;
 }
-}
+} */
 
 div#leftsideimg {
   background-color: rgb(255 253 244);
@@ -2451,40 +2451,6 @@ img.school-img-15 {
 }
 
 /* app end */
-
-/* website  */
-
-/* nvratri website 16 */
-
-.school-img-16 {
-  margin-top: 50px;
- 
-}
-
-/* covid19 17 */
-
-.school-img-17 {
-  margin-top: 50px;
- 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* about section start */
 
 
 /*--------------------------------------------------------------
@@ -2892,3 +2858,24 @@ footer.footer.experience {
 }
 
 /* experience end */
+/* project css */
+/* #project-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.school-img-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.school-img-16,
+.school-img-17 {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+} */

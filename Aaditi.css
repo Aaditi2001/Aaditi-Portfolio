@@ -8,13 +8,14 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: auto;
+  height: 950px;
   background-repeat: no-repeat;
 }
 
 .hero-contant {
-  transform: translate(0%, 20%);
+  transform: translate(0%, 25%);
 }
+
 
 #hero_bg_2 {
   background-image: url("assets/home_bg_02.png");
@@ -74,7 +75,7 @@ img.cyber_security_gif1 {
 img.cyber_security_gif2 {
   margin-top: 130px;
   width: 30%;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   margin-left: 19px;
 }
 
@@ -85,19 +86,15 @@ img.cyber_security_gif2 {
   z-index: 10;
 }
 
-img.education_gif_2 {
-  width: 10%;
-  margin-right: 200px;
-}
 
 img#Main_Profile_img {
   width: 100%;
   padding: 45px 45px 45px 0px;
 }
 
-img.cyber_security_gif1 {
+/* img.cyber_security_gif1 {
   opacity: 0.5;
-}
+} */
 
 /* media quarry_hero section */
 
@@ -159,10 +156,10 @@ img.cyber_security_gif1 {
     margin-bottom: 119px;
     padding: 0px !important;
   }
-
+/* 
   .hero-contant {
-    transform: translate(0%, 10%);
-  }
+    transform: translate(0%, 20%);
+  } */
 
   #hero_bg_2 {
     background-position: right;
@@ -243,13 +240,11 @@ h1.hero-section_h1 {
     padding: 0px !important;
   } */
 
-.hero-contant {
-  transform: translate(0%, 20%);
-}
 
 img.education_gif_2 {
-  width: 10%;
-  margin-right: 76px !important;
+    width: 6%;
+    /* margin-right: 140px !important; */
+    /* padding-top: 20px; */
 }
 
 /* hover effect-hero section */
@@ -335,17 +330,13 @@ a.nav-link:hover {
   transform: scale(1.05); /* Optional smooth zoom effect */
 }
 
-
 a.nav-link.active {
   background-image: linear-gradient(359deg, #002060, #002060, #5a1368);
   background-size: 200% 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
-
 }
-
-
 
 header#header {
   background-color: #f8f9fa !important;
@@ -353,8 +344,10 @@ header#header {
 
 .bg-body-tertiary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-tertiary-bg-rgb),
-      var(--bs-bg-opacity)) !important;
+  background-color: rgba(
+    var(--bs-tertiary-bg-rgb),
+    var(--bs-bg-opacity)
+  ) !important;
 }
 
 /* media quarry nav bar */
@@ -485,7 +478,13 @@ header#header {
   border-top-left-radius: 10px;
 }
 
-.about-section .image-column .inner-column .image .overlay-box .year-box .number {
+.about-section
+  .image-column
+  .inner-column
+  .image
+  .overlay-box
+  .year-box
+  .number {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -634,7 +633,13 @@ h2.about-us-h2 {
     font-size: 12px;
   }
 
-  .about-section .image-column .inner-column .image .overlay-box .year-box .number {
+  .about-section
+    .image-column
+    .inner-column
+    .image
+    .overlay-box
+    .year-box
+    .number {
     position: absolute;
     left: 0px;
     top: 0px;
@@ -1295,9 +1300,11 @@ button#btn_experiencebutton_6 {
 .container_education .card_education .face.face1 {
   position: relative;
   max-width: 370px !important;
-  background: linear-gradient(to right bottom,
-      rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1307,9 +1314,11 @@ button#btn_experiencebutton_6 {
 
 .container_education .card_education:hover .face.face1 {
   transform: translateY(0);
-  background-image: linear-gradient(to left bottom,
-      rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
+  background-image: linear-gradient(
+    to left bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   /* max-width: 370px!important; */
@@ -1488,7 +1497,6 @@ section.portfolio-section {
   margin-top: 50px;
 }
 a.filter.project-page {
-
   color: rgba(0, 32, 96, 1);
   background: transparent;
   border-radius: 10px;
@@ -1506,7 +1514,6 @@ a.filter.project-page {
   -webkit-tap-highlight-color: transparent;
   font-family: "Poppins";
 }
-
 
 a.project-a {
   color: rgba(0, 32, 96, 1) !important;
@@ -1532,9 +1539,6 @@ a.project-a {
   font-family: "Poppins";
 }
 
-
-
-
 @media (max-width: 575.98px) {
   .portfolio-tab ul li {
     display: block;
@@ -1544,17 +1548,21 @@ a.project-a {
 }
 
 .portfolio-tab ul li:hover {
-  background: linear-gradient(to right bottom,
-      rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
   color: #fff;
   border-radius: 10px;
 }
 
 .portfolio-tab ul .active {
-  background: linear-gradient(to right bottom,
-      rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
   color: #fff;
   border-radius: 10px;
 }
@@ -1638,9 +1646,11 @@ a.project-a {
 }
 
 .portfolio .template-btn {
-  background: linear-gradient(to right bottom,
-      rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
 
   text-decoration: none;
   margin-top: 20px;
@@ -1792,9 +1802,11 @@ a.project-a {
   display: block;
   width: 60px;
   height: 5px;
-  background: linear-gradient(to right bottom,
-      rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -1857,9 +1869,11 @@ a.project-a {
 }
 
 #contact .contact-info a:hover {
-  color: linear-gradient(to right bottom,
-      rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
+  color: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
 }
 
 #contact .contact-address,
@@ -1869,9 +1883,11 @@ a.project-a {
 }
 
 #contact .form #sendmessage {
-  color: linear-gradient(to right bottom,
-      rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
+  color: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
   border: 1px solid #f82249;
   display: none;
   text-align: center;
@@ -1881,9 +1897,11 @@ a.project-a {
 }
 
 #contact .form #errormessage {
-  color: linear-gradient(to right bottom,
-      rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
+  color: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
   display: none;
   border: 1px solid red;
   text-align: center;
@@ -1899,9 +1917,11 @@ a.project-a {
 }
 
 #contact .form .validation {
-  color: linear-gradient(to right bottom,
-      rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
+  color: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
   display: none;
   margin: 0 0 20px;
   font-weight: 400;
@@ -1917,9 +1937,11 @@ a.project-a {
 }
 
 #contact .form button[type="submit"] {
-  background: linear-gradient(to right bottom,
-      rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
   border: 0;
   padding: 10px 40px;
   color: #fff;
@@ -1930,33 +1952,41 @@ a.project-a {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: linear-gradient(to right bottom,
-      rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
 }
 
 .contact-address {
-  background: linear-gradient(to right bottom,
-      rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
   padding: 40px;
   border-radius: 16px;
   font-family: "Poppins";
 }
 
 .contact-phone {
-  background: linear-gradient(to right bottom,
-      rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
   padding: 40px;
   border-radius: 16px;
   font-family: "Poppins";
 }
 
 .contact-email {
-  background: linear-gradient(to right bottom,
-      rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
   padding: 40px;
   border-radius: 16px;
   font-family: "Poppins";
@@ -1987,9 +2017,11 @@ a.project-a {
 
 .footer {
   padding: 14px 0;
-  background: linear-gradient(to right bottom,
-      rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
   color: white;
 }
 
@@ -2043,9 +2075,11 @@ a.project-a {
   text-align: center;
   padding-top: 70px;
   padding-bottom: 70px;
-  background: linear-gradient(to right bottom,
-      rgba(0, 32, 96, 1) 0%,
-      rgba(90, 19, 104, 1));
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
   background-image: url(assets/pagetitle-1.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -2141,8 +2175,13 @@ a.buttonproject {
 }
 
 a.buttonproject.active {
-background: linear-gradient(to right bottom, rgba(0, 32, 96, 1) 0%, rgba(90, 19, 104, 1));
-    color: #fff;}
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
+  color: #fff;
+}
 
 div#project_buttons {
   text-align: center;
@@ -2189,7 +2228,7 @@ div#project_buttons {
 
   img.school-img-02 {
     width: 100%;
-}
+  }
 }
 
 /* website */
@@ -2452,7 +2491,6 @@ img.school-img-15 {
 
 /* app end */
 
-
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -2461,7 +2499,7 @@ section#about {
   margin-top: 50px;
 }
 
-#about{
+#about {
   font-family: "poppins" !important;
 }
 .about .about-meta {
@@ -2500,7 +2538,7 @@ li.li-sublines {
 
 .about .about-description {
   margin-bottom: 2rem;
-  
+
   color: #bfbfbf;
 }
 
@@ -2523,12 +2561,11 @@ li.li-sublines {
 }
 
 .about .feature-list li i {
-
   background-image: linear-gradient(359deg, #002060, #002060, #5a1368);
-    background-size: 200% 200%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  font-size:16px;
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
 }
 
 .about .profile .profile-image {
@@ -2621,7 +2658,7 @@ li.li-sublines {
   position: absolute;
   bottom: 5%;
   right: 5%;
-  
+
   color: var(--contrast-color);
   padding: 1.5rem;
   border-radius: 0.5rem;
@@ -2671,100 +2708,102 @@ li.li-sublines {
   }
 }
 
-
 /* contact me start */
 
-
-
-.contact-page-sec{
+.contact-page-sec {
   padding: 30px 0;
   /* min-height: 100vh; */
-  font-family:  "Poppins";
+  font-family: "Poppins";
 }
 
 .single-input-fieldsbtn {
   text-align: center;
-
 }
 
 .contact-info {
-display: inline-block;
-width: 100%;
-text-align: center;
-margin-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .contact-info-icon {
-margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 .contact-info-item {
-background: #071c34;
-border-radius: 10px;
-padding: 30px 0px;
+  background: #071c34;
+  border-radius: 10px;
+  padding: 30px 0px;
 }
 .contact-page-sec .contact-page-form h2 {
-color: #071c34;
-text-transform: capitalize;
-font-size: 22px;
-font-weight: 700;
+  color: #071c34;
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 700;
 }
 .contact-page-form .col-md-6.col-sm-6.col-xs-12 {
-padding-left: 0;
-}  
+  padding-left: 0;
+}
 .contact-page-form.contact-form input {
-margin-bottom: 5px;
-}  
+  margin-bottom: 5px;
+}
 .contact-page-form.contact-form textarea {
-height: 110px;
+  height: 110px;
 }
 .contact-page-form.contact-form input[type="submit"] {
-background: #071c34;
-width: 150px;
-border-color: #071c34;
+  background: #071c34;
+  width: 150px;
+  border-color: #071c34;
 }
 .contact-info-icon i {
-font-size: 28px;
-color: #fda40b;
+  font-size: 28px;
+  color: #fda40b;
 }
-.contact-info-text p{margin-bottom:0px;}
+.contact-info-text p {
+  margin-bottom: 0px;
+}
 .contact-info-text h2 {
-color: #fff;
-font-size: 22px;
-text-transform: capitalize;
-font-weight: 600;
-margin-bottom: 10px;
+  color: #fff;
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 .contact-info-text span {
-color: #999999;
-font-size: 16px;
-font-weight:400 ;
-display: inline-block;
-width: 100%;
+  color: #999999;
+  font-size: 16px;
+  font-weight: 400;
+  display: inline-block;
+  width: 100%;
 }
 
 .contact-page-form input {
-background: #f9f9f9 none repeat scroll 0 0;
-border: 1px solid #f9f9f9;
-margin-bottom: 20px;
-padding: 12px 16px;
-width: 100%;
-border-radius: 4px;
+  background: #f9f9f9 none repeat scroll 0 0;
+  border: 1px solid #f9f9f9;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  width: 100%;
+  border-radius: 4px;
 }
 
 .contact-page-form .message-input {
-display: inline-block;
-width: 100%;
-padding-left: 0;
+  display: inline-block;
+  width: 100%;
+  padding-left: 0;
 }
 .single-input-field textarea {
-background: #f9f9f9 none repeat scroll 0 0;
-border: 1px solid #f9f9f9;
-width: 100%;
-height: 120px;
-padding: 12px 16px;
-border-radius: 4px;
+  background: #f9f9f9 none repeat scroll 0 0;
+  border: 1px solid #f9f9f9;
+  width: 100%;
+  height: 120px;
+  padding: 12px 16px;
+  border-radius: 4px;
 }
 .single-input-fieldsbtn input[type="submit"] {
-  background: linear-gradient(to right bottom, rgba(0, 32, 96, 1) 0%, rgba(90, 19, 104, 1));
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
   border: 0;
   padding: 10px 40px;
   color: #fff;
@@ -2775,25 +2814,28 @@ border-radius: 4px;
   margin-top: 40px;
 }
 
-.single-input-fieldsbtn input[type="submit"]:hover{background:#071c34;transition: all 0.4s ease-in-out 0s;border-color:#071c34}
-.single-input-field  h4 {
-color: #464646;
-text-transform: capitalize;
-font-size: 14px;
+.single-input-fieldsbtn input[type="submit"]:hover {
+  background: #071c34;
+  transition: all 0.4s ease-in-out 0s;
+  border-color: #071c34;
+}
+.single-input-field h4 {
+  color: #464646;
+  text-transform: capitalize;
+  font-size: 14px;
 }
 .contact-page-form {
-display: inline-block;
-width: 100%;
-margin-top: 30px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 30px;
 }
 
 .contact-page-map {
-margin-top: 36px;
+  margin-top: 36px;
 }
 .contact-page-form form {
-padding: 20px 15px 0;
+  padding: 20px 15px 0;
 }
-
 
 div#contact_detailifo {
   margin-top: 50px;
@@ -2803,7 +2845,7 @@ div#contact_detailifo {
 /* experience start */
 
 ul.experience-list {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 16px;
   color: #9b9797;
   letter-spacing: 1px;
@@ -2814,23 +2856,24 @@ li.li-experience {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 32px;
-  
- 
 }
-
 
 div#box_heading {
   color: #ffffff;
-  background: linear-gradient(to right bottom, rgba(0, 32, 96, 1) 0%, rgba(90, 19, 104, 1));
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 32, 96, 1) 0%,
+    rgba(90, 19, 104, 1)
+  );
   padding-top: 20px;
   border-radius: 15px;
   padding-bottom: 10px;
   margin-left: 3px;
   margin-right: 1px;
 }
- h6.company_name {
+h6.company_name {
   margin-left: 14px;
-} 
+}
 
 .li_section_box {
   margin-top: 10px;
@@ -2879,3 +2922,61 @@ footer.footer.experience {
   height: auto;
   object-fit: contain;
 } */
+
+/* new experience  */
+
+.exp-section {
+  margin: 50px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.exp-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  transition: all 0.3s ease;
+}
+
+.exp-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.exp-header {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.exp-company-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #002060;
+}
+
+.exp-date {
+  font-size: 14px;
+  color: #888;
+}
+
+.exp-list {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.exp-item {
+  margin-bottom: 12px;
+  line-height: 1.6;
+  color: #333;
+  position: relative;
+}
+
+.exp-item::before {
+  content: "•";
+  color: #005560;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}

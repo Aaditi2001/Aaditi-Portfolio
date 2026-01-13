@@ -2980,3 +2980,21 @@ footer.footer.experience {
   width: 1em;
   margin-left: -1em;
 }
+
+
+
+
+
+/* project page */
+
+img.school-img-17-17.img-fluid {
+    height: 500px;
+    width: 500px !important;
+    padding: 20px;
+}
+
+img.school-img-16-16.img-fluid {
+      height: 500px;
+    width: 500px !important;
+    padding: 20px;
+}
